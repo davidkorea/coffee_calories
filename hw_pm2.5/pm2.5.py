@@ -36,10 +36,10 @@ def main():
     groupby_year = data_df.groupby('year')
     pm_china_mean = groupby_year['PM_China'].mean()
     pm_us_mean = groupby_year['PM_US'].mean()
-    pm_china_mean.plot(kind='bar')
-
+    
     group_bar(pm_china_mean, pm_us_mean)
 
+    pm_china_mean.plot(kind='bar')
     pm_china_mean.to_csv('./pm_china_mean.csv')
     pm_us_mean.to_csv('./pm_us_mean.csv')
 

@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/coffee_calories.iml" filepath="$PROJECT_DIR$/.idea/coffee_calories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../happiness_score/.idea/happiness_score.iml" filepath="$PROJECT_DIR$/../happiness_score/.idea/happiness_score.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mobile_data_usage/.idea/mobile_data_usage.iml" filepath="$PROJECT_DIR$/../mobile_data_usage/.idea/mobile_data_usage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pokemon_properties/.idea/pokemon_properties.iml" filepath="$PROJECT_DIR$/../pokemon_properties/.idea/pokemon_properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stock_analyse/.idea/stock_analyse.iml" filepath="$PROJECT_DIR$/../stock_analyse/.idea/stock_analyse.iml" />
       <module fileurl="file://$PROJECT_DIR$/../video_games_global_sales/.idea/video_games_global_sales.iml" filepath="$PROJECT_DIR$/../video_games_global_sales/.idea/video_games_global_sales.iml" />
     </modules>
   </component>

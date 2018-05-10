@@ -5,6 +5,10 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (day3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="video_games_global_sales" />
+    <orderEntry type="module" module-name="pokemon_properties" />
+    <orderEntry type="module" module-name="mobile_data_usage" />
+    <orderEntry type="module" module-name="stock_analyse" />
+    <orderEntry type="module" module-name="happiness_score" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

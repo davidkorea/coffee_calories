@@ -33,8 +33,15 @@ pivot_us['day'].plot(kind='bar',stacked=True,rot=0)
 # plt.show()
 
 #3 Resample freq=1h -> 1day
-# data_df['year'] = pd.to_datetime(data_df['year'])
 data_df['hour'] = data_df['hour'].astype('str') + ':00'
-# data_df.set_index(data_df['year'])
+data_df['year'] = data_df['year'].astype('str')
+data_df['month'] = data_df['month'].astype('str')
+data_df['day'] = data_df['day'].astype('str')
+data_df['date'] = data_df['year'].str.cat([data_df['month'],
+                                                data_df['day']],sep='-')
+data_df['timestamp'] = data_df['date'].str.cat(data_df['hour'],sep=' ')
+# data_df['timestamp'] = pd.Timestamp(data_df['timestamp'].astype('str'))
+data_df['timestamp'] = pd.to_datetime(data_df['timestamp'])
+data_df.set_index(data_df['timestamp'])
 # data_df['day_mean_cn'] = data_df.resample('D').mean()
 print()
